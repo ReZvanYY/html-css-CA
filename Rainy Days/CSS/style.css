@@ -1,0 +1,146 @@
+body {
+  background-color: (211, 211, 211, 1);
+}
+.Rainy-Days-Logo {
+  width: 34.125rem;
+  height: 18.375rem;
+  display: flex;
+  margin: auto;
+}
+.Rainy-Days-Logo-small {
+  width: 15.625rem;
+  height: 7.394rem;
+  display: flex;
+  margin: auto;
+}
+.Home-Page-Text {
+  font-size: 1.563rem;
+  font-family: "Kameron";
+  width: 34.125rem;
+  height: 9.8756rem;
+  text-align: center;
+  margin: auto;
+  color: rgba(10, 54, 65, 1);
+}
+.View-Product {
+  width: 16.125rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.625rem;
+  color: white;
+  background-color: rgba(10, 54, 65, 1);
+  font-family: "Kameron";
+  font-size: 1.563rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+.Bottom-links-container {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+  padding: 0 10px;
+}
+.No-text-decoration {
+  text-decoration: none;
+  color: black;
+  font-size: 0.875rem;
+  margin: 1.5rem;
+}
+.No-text-decoration-white {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.25rem;
+  margin: 0 4.0625rem;
+}
+.page-navigation {
+  border: solid rgba(10, 54, 65, 1);
+  background-color: rgba(10, 54, 65, 1);
+  height: 3rem;
+  font-family: "Kameron";
+  display: flex;
+  align-items: center;
+}
+.nav-left-space {
+  flex: 0;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.cart-placement {
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-end;
+}
+.No-text-decoration-default {
+  text-decoration: none;
+}
+@media (max-width: 430px) {
+  .Rainy-Days-Logo-small {
+    width: 10.625rem;
+    height: 6.394rem;
+    display: flex;
+    margin: auto;
+  }
+  .Rainy-Days-Logo {
+    width: 17.125rem;
+    height: 14.375rem;
+    display: flex;
+    margin: auto;
+  }
+  .No-text-decoration-white {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.1rem;
+    margin: 0 2.0625rem;
+  }
+  .Home-Page-Text {
+    font-size: 1.3rem;
+    font-family: "Kameron";
+    width: 17.125rem;
+    height: 11.8756rem;
+    text-align: center;
+    margin: auto;
+    color: rgba(10, 54, 65, 1);
+  }
+  .View-Product {
+    width: 10.125rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.625rem;
+    color: white;
+    background-color: rgba(10, 54, 65, 1);
+    font-family: "Kameron";
+    font-size: 1.563rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+  }
+  .Bottom-links-container {
+    text-align: center;
+    width: 100%;
+    margin: 0 10px;
+  }
+  .Bottom-links{
+    display: flex;
+    flex-direction: row;
+  }
+  .No-text-decoration {
+    text-decoration: none;
+    color: black;
+    font-size: 0.675rem;
+    margin: 0.5rem;
+  }
+}
